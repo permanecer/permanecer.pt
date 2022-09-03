@@ -1,0 +1,18 @@
+title = "Permanecer"
+baseURL = "https://permanecer.pt/"
+languageCode = "pt-PT"
+
+# Note that this does not disable injection in the RSS feeds (see
+# https://github.com/gohugoio/hugo/issues/3453) we need to create our
+# own RSS template.  But we're disabling the RSS feeds anyway because
+# they don't make much sense at the moment anyway.
+disableHugoGeneratorInject = true
+
+# Once the site is actually up and we have blog posts, we should
+# re-enable RSS feed.
+disableKinds = [
+  'RSS',
+  'taxonomy',
+  'term',
+  'sitemap',
+]

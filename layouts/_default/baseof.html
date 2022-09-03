@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Comunidade Permanecer">
+
+    {{ partial "site-style.html" . }}
+  </head>
+  <body>
+    {{ block "header" . }} {{ end }}
+    {{ block "main" . }} {{ end }}
+    {{ block "footer" . }} {{ end }}
+  </body>
+</html>
