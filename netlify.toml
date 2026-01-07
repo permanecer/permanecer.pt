@@ -1,0 +1,9 @@
+[build]
+command = "hugo"
+base = "/"  # where to run the build from (relative to root of the repository)
+publish = "public/"  # directory to deploy / the build output
+
+## Any version of hugo should work but we need to set HUGO_VERSION to
+## something because it's the presence of that variable that signals
+## netlify that we need hugo installed to build.
+environment = { HUGO_VERSION = "0.153.5" }
